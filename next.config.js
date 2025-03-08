@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export', // Required for static export
-  basePath: '/misbahmuhammedve2', // Replace with your GitHub repo name
   images: {
-    unoptimized: true, // Required for GitHub Pages (disables Next.js image optimization)
     remotePatterns: [
       {
         protocol: 'https',

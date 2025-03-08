@@ -1,6 +1,7 @@
 'use client';  // Add this line to make it a client component
 
 import { socialSection } from '@/lib/content/social';
+
 import { SocialIcon } from '@/components';
 
 const SocialLinks = ({ className = '' }: { className?: string }) => {

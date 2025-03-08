@@ -3,7 +3,7 @@ import { aboutSection } from '@/lib/content/about';
 import { author } from '@/lib/content/portfolio';
 import { getId } from '@/lib/utils/helper';
 
-import { AuthorImage, Link, ListItem, Wrapper } from '@/components';
+import { AuthorImage, Link, Wrapper } from '@/components';
 
 import { getSectionAnimation } from '@/styles/animations';
 
@@ -50,24 +50,24 @@ const About = () => {
           </p>
 
           {list && (
-  <>
-    <p>{list.title}</p>
-    <ul className="grid w-2/3 grid-cols-2 gap-1 text-sm">
-      {list.items.map((item) => {
-        const [category, skills] = item.split(": ");
-        return (
-          <li key={getId()} className="flex items-start gap-2">
-            {/* Custom bullet or icon */}
-            <span className="text-blue-500">•</span>
-            <div>
-              <strong>{category}:</strong> {skills}
-            </div>
-          </li>
-        );
-      })}
-    </ul>
-  </>
-)}
+            <>
+              <p>{list.title}</p>
+              <ul className="grid w-2/3 grid-cols-2 gap-1 text-sm">
+                {list.items.map((item) => {
+                  const [category, skills] = item.split(": ");
+                  return (
+                    <li key={getId()} className="flex items-start gap-2">
+                      {/* Custom bullet or icon */}
+                      <span className="text-blue-500">•</span>
+                      <div>
+                        <strong>{category}:</strong> {skills}
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </>
+          )}
         </div>
         <AuthorImage src={img} alt={author.name} />
       </main>
