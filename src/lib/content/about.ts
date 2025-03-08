@@ -7,13 +7,15 @@ export const aboutSection: AboutSectionType = {
   list: {
     title: 'Here are a few technologies I’ve been working with recently:',
     items: [
-      'NextJs',
-      'TailwindCSS',
-      'ExpressJs',
-      'AI/ML',
-      'Prisma',
-      'CSS Animations',
+      "Languages/Frameworks: C#, Go (basics), .NET Core 8.0, ASP.NET Web API, MVC, Entity Framework Core, Angular (17+), XUnit",
+      "Front-End: Angular, Blazor, Bootstrap, HTML5, CSS3, JavaScript, TypeScript, jQuery",
+      "Cloud/DevOps: Microsoft Azure (Service Bus, Functions), GitHub Actions, Docker",
+      "Databases: Microsoft SQL Server, LINQ",
+      "Software Architecture: Microservices, Design Patterns, SOLID Principles, Distributed Systems",
+      "APIs: RESTful APIs, GraphQL (Basics)",
+      "Development Practices: Agile, Scrum, CI/CD",
+      "Tools: Visual Studio, Swagger, Postman, Jira, Bitbucket, GitHub",
     ],
   },
-  img: '/vatsal-singh.png',
+  img: '/misbah-a.jpg',
 };

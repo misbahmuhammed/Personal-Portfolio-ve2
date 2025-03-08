@@ -3,14 +3,15 @@ import { resumeFileName } from '@/lib/utils/config';
 
 export const heroSection: HeroSectionType = {
   subtitle: 'Hi, my name is',
-  title: 'vatsal singh.',
-  tagline: 'I create visually pleasing interfaces for the web.',
+  title: 'Misbah A.',
+  tagline: 'I build scalable and secure web applications.',
   description:
-    "I'm a passionate Full-Stack web developer with hands-on experience in building web applications using React.js & Next.js with TypeScript, TailwindCSS, and Prisma, with UI/UX designing.",
-  specialText: 'Currently available for freelance',
+    "I'm a passionate Full-Stack Developer with 1.8 years of experience in building scalable applications using .NET Core, Angular, and SQL Server. Skilled in developing RESTful APIs, microservices, and integrating cloud services with Azure. I also have experience in UI development with Blazor and Angular.",
+  specialText: 'Open to remote, hybrid, and on-site opportunities',
   cta: {
     title: 'see my resume',
     url: `/${resumeFileName}`,
     hideInDesktop: true,
   },
 };
+

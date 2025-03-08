@@ -7,33 +7,37 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/vatsalsinghkv',
-  instagram: 'https://www.instagram.com/vatsalsinghkv',
-  twitter: 'https://twitter.com/vatsalsinghkv',
-  github: 'https://github.com/vatsalsinghkv',
-  linkedin: 'https://www.linkedin.com/in/vatsalsinghkv/',
+  linkedin: 'https://www.linkedin.com/in/misbahmuhammed/',
+  instagram: 'https://www.instagram.com/mxsbah_mhd_/',
+  twitter: 'https://twitter.com/misbahmuhammed',
+  github: 'https://github.com/misbahmuhammed',  
 };
 
 export const author = {
-  name: 'Vatsal Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  name: 'Misbah A',
+  email: 'misbahofficialwork@gmail.com',
 };
 
 export const seoData = {
-  title: 'Vatsal Singh | Front-End Developer',
+  title: 'Misbah A | Full-Stack Developer',
   description:
-    'Vatsal Singh is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Misbah A is a Full-Stack Developer with expertise in .NET Core, Angular, SQL Server, and Azure, specializing in building scalable and secure web applications.',
   author: author.name,
   image:
-    'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
-  url: 'https://vatsalsinghkv.vercel.app/',
+    'https://via.placeholder.com/300x200', // Replace with your actual image URL if available
+  url: 'https://misbah-portfolio.netlify.app/',
   keywords: [
-    'Vatsal',
-    'Vatsal Singh',
-    '@vatsalsinghkv',
-    'vatsalsinghkv',
+    'Misbah',
+    'Misbah A',
+    '@misbahmuhammed',
+    'misbahmuhammed',
     'Portfolio',
-    'Vatsal Portfolio ',
-    'Vatsal Singh Portfolio',
+    'Misbah Portfolio',
+    'Misbah A Portfolio',
+    '.NET Core Developer',
+    'Full-Stack Developer',
+    'Angular Developer',
+    'Azure Developer',
   ],
 };
+

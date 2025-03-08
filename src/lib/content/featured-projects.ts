@@ -6,64 +6,36 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
   projects: [
     {
       id: getId(),
-      name: 'GetLifeGuard',
-      description: 'An E-Commerce platform for Self-Defense Keychain.',
+      name: 'Desk Seat Allocating Project',
+      description: 'An internal application for employees to book workspaces in advance, optimizing seat allocation and utilization.',
       tasks:
-        "As a freelancer, I understood the client's requirements and executed a plan to develop and design an e-commerce platform, including the frontend UI, backend setup with database, APIs, and integration with payment platforms.",
-      url: 'https://www.getlifegard.com/',
-      img: 'https://www.getlifegard.com/images/og.png',
-      tags: [
-        'NextJs 14',
-        'TypeScript',
-        'TailwindCSS',
-        'ShadCN',
-        'Prisma',
-        'Stripe',
-      ],
+        'Developed backend services using .NET Core Web API and integrated them with Angular for the frontend. Utilized Azure, Entity Framework Core, and SQL Server following a clean architecture approach.',
+      url: '',
+      img: '/seat.jpg', // Placeholder image since no public link is available
+      tags: ['.NET Core', 'Angular', 'Azure', 'Entity Framework Core', 'SQL Server'],
     },
     {
       id: getId(),
-      name: 'Valuemetrix',
-      description: 'An AI Powered Investment Platform.',
+      name: 'ACCIDENT-DETECTION-WITH-A-REPORTING-SYSTEM',
+      description: 'A real-time accident detection system using deep learning to analyze CCTV footage and send alerts to the nearest control room.',
       tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.valuemetrix.io/',
-      img: 'https://www.valuemetrix.io/images/og.png',
-      tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
+        'Built and trained deep learning models using VGG16 to classify video frames with 95% accuracy. Integrated Twilio API for alert notifications and deployed the system using Streamlit.',
+      url: 'https://github.com/misbahmuhammed/Deep-Learning-Based-Road-Accident-Detection-And-Alert-System',
+      img: '/accident.jpeg',
+      tags: ['Python', 'Deep Learning', 'VGG16', 'Streamlit', 'Twilio API'],
     },
     {
       id: getId(),
-      name: 'Velvi Matrimony',
-      description:
-        'A platform that redefines the way individuals find their life partners.',
+      name: 'Campus E-Store Ecommerce Website',
+      description: 'A web-based shopping system for the college store, allowing students and staff to purchase products online.',
       tasks:
-        'As a freelancer, I developed this project by planning, communicating with the client, gathering feedback, implementing UI & pages, and integrating real-time data fetching with filtering functionality.',
-      url: 'https://velvi.vercel.app/',
-      img: 'https://i.postimg.cc/tRS4GvzJ/Screenshot-2024-02-27-at-5-48-49-PM.png',
-      tags: ['NextJs', 'TypeScript', 'TailwindCSS', 'APIs'],
-    },
-    /*   {
-      id: getId(),
-      name: 'Integra',
-      description: 'An AI-Powered Leads Generation Platform.',
-      tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.integraleads.xyz/',
-      img: 'https://user-images.githubusercontent.com/68834718/279476369-2f69466a-71db-4da0-9afd-04f8f0efb621.jpeg',
-      tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Express'],
-    }, */
-
-    {
-      id: getId(),
-      name: 'Drafton',
-      description: 'The AI-powered platform that simplifies proposal creation.',
-      tasks:
-        'I designed and developed the landing page and implemented the dashboard by creating a user interface and integrating APIs.',
-      url: 'https://www.drafton.io/',
-      img: 'https://i.postimg.cc/4N6dsGcm/Screenshot-2024-06-17-at-11-05-22-PM.png',
-      tags: ['Open AI', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
+        'Developed the website using Django with a focus on responsive design and seamless user experience. Implemented backend services and managed data with SQLite.',
+      url: 'https://github.com/misbahmuhammed/Campus-E-Store-Ecommerce-Website-Django',
+      img: '/school.png', // Placeholder image since no image link provided
+      tags: ['Django', 'Python', 'SQLite', 'HTML', 'CSS'],
     },
   ],
+  
 };
 
 export default featuredProjectsSection;

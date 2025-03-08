@@ -4,6 +4,10 @@ import { SocialSectionType } from '@/lib/types/sections';
 export const socialSection: SocialSectionType = {
   socialLinks: [
     {
+      icon: 'lucide:linkedin',
+      url: socialLinks.linkedin,
+    },
+    {
       icon: 'tabler:brand-github',
       url: socialLinks.github,
     },
@@ -14,14 +18,10 @@ export const socialSection: SocialSectionType = {
     {
       icon: 'lucide:twitter',
       url: socialLinks.twitter,
-    },
-    {
-      icon: 'lucide:linkedin',
-      url: socialLinks.linkedin,
-    },
+    },   
     {
       icon: 'lucide:facebook',
       url: socialLinks.facebook,
-    },
+    }
   ],
 };

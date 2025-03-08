@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   reactStrictMode: true,
+  output: 'export', // Required for static export
+  basePath: '/your-repo-name', // Replace with your GitHub repo name
   images: {
+    unoptimized: true, // Required for GitHub Pages (disables Next.js image optimization)
     remotePatterns: [
       {
         protocol: 'https',
@@ -33,6 +36,18 @@ module.exports = {
         hostname: 'buttons-animations-kv.vercel.app',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
+        pathname: '/**', // Added pathname for consistency
+      },
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+        pathname: '/**', // Added pathname for consistency
+      },
     ],
   },
 };
+
+module.exports = nextConfig;
