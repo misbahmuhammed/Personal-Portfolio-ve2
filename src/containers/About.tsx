@@ -24,7 +24,7 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Misbah A, a Full Stack Developer with 1.8 years of experience in building scalable applications using{' '}
+            Hi, my name is Misbah A, a Full Stack Developer with 1.11 years of experience in building scalable applications using{' '}
             <Link
               href="https://dotnet.microsoft.com/"
               target="_blank"
